@@ -4,10 +4,10 @@ function nextInLine(arr, item) {
     arr.push(item);
     // This part i didnt got yet, but im assuming stuff
     // since we need to return the value which was removed from our array, i must assign that value from the function  .shift() to a variable.
-    const removed = arr.shift();
+    const item = arr.shift();
   
     // For last, return the value assigned to the variable
-    return removed; 
+    return item; 
     // Only change code above this line
   }
   
